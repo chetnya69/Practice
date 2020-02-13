@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="css/form-validation.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <form class="needs-validation" onsubmit="return validation()" novalidate>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 firstname">
+                        <label for="fname"><strong>First Name: </strong></label><br>
+                        <input id="fname" class="form-control is-invalid" style="width: 100%;" type="text" placeholder="firstname"/>
+                        <div class="invalid-feedback">
+                            Please enter firstname
+                        </div>
+                    </div>
+                    <div class="col-md-4 lastname">
+                        <label for="lname"><strong>Last Name: </strong></label><br>
+                        <input id="lname" class="form-control is-invalid" style="width: 100%;" type="text" placeholder="lastname"/>
+                        <div class="invalid-feedback">
+                            Please enter lastname
+                        </div>
+                    </div>
+                    <div class="col-md-4 phone_number">
+                        <label for="pno"><strong>Phone Number: </strong></label><br>
+                        <input id="pnum" class="form-control is-invalid" style="width: 100%;" type="number" placeholder="Phone Number"/>
+                        <div class="invalid-feedback">
+                            Please enter phone number
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-md-6 email">
+                        <label for="email"><strong>Email: </strong></label><br>
+                        <input id="email" class="form-control is-invalid" style="width: 100%;" type="email" placeholder="Email"/>
+                        <div class="invalid-feedback">
+                            Please enter email
+                        </div>
+                    </div>
+                    <div class="col-md-6 address">
+                        <label for="address"><strong>Address: </strong></label><br>
+                        <input id="address" class="form-control is-invalid" style="width: 100%;" type="text" placeholder="Address"/>
+                        <div class="invalid-feedback">
+                            Please enter address
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="row">
+                    <div class="col-md-4 city">
+                        <label for="city"><strong>City: </strong></label><br>
+                        <input id="city" class="form-control is-invalid" style="width: 100%;" type="text" placeholder="city"/>
+                        <div class="invalid-feedback">
+                            Please enter city
+                        </div>
+                    </div>
+                    <div class="col-md-4 city">
+                        <label for="city"><strong>City: </strong></label><br>
+                        <input id="city" class="form-control is-invalid" style="width: 100%;" type="text" placeholder="city"/>
+                        <div class="invalid-feedback">
+                            Please enter city
+                        </div>
+                    </div>
+                    <div class="col-md-4 code">
+                        <label for="zipcode"><strong>ZipCode: </strong></label><br>
+                        <input id="zipcode" class="form-control is-invalid" style="width: 100%;" type="number" placeholder="ZipCode"/>
+                        <div class="invalid-feedback">
+                            Please enter Zipcode
+                        </div>
+                    </div>
+                </div><br><br>
+
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3">
+                      <label class="form-check-label" for="invalidCheck3">
+                        Agree to terms and conditions
+                      </label>
+                      <div class="invalid-feedback">
+                        You must agree before submitting.
+                      </div>
+                    </div>
+                  </div>
+                
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="js/form_validation.js"></script>
+
+</body>
+</html>
