@@ -1,0 +1,48 @@
+
+
+.fa{
+    padding: 10px;
+}
+
+.navbar{
+    height: auto;
+    font-size: large;
+    overflow: visible;
+    background: transparent;
+}
+
+.navbar{
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+
+
+.corousel-item{
+    color: black;
+}
+
+#about-bg-wrapper{
+    position: relative;
+    background-image: url("about2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 100px 0;
+}
+
+#our_service{
+    background-color: black;
+    text-align: right;
+    height: 500px; 
+    padding-top: 150px;
+}
+
+#consult{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    padding-left: 100px;
+}

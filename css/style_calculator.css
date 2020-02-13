@@ -1,0 +1,26 @@
+
+.cont{
+    width: 400px;
+    height: 600px;
+}
+
+.screenClass{
+    background-color: black;
+    color: white;
+}
+
+.button{
+    padding-right: 10px;
+    font-size: 1rem;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.button1{
+    font-size: 20px;
+    width: 20%;
+}
+
+.button2{
+    width: 150px;
+}

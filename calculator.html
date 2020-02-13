@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style_calculator.css">
+    
+
+</head>
+
+<body>
+    <p id="demo"></p>
+    <div class="container-fluid cont">
+            <div class="form-group">
+                <input type="text" id="screenTxt" style="width: 300px;" class="form-control screenClass" name="screenValue" placeholder="enter values"><br>
+                <!--<input type="text" id="screenTxt2" style="width: 300px;" class="form-control screenClass" name="screenValue" placeholder="result">-->
+                <div class="button">
+                    <button class="btn btn-light button1" onclick="clearText()" value="all-clear">AC</button>
+                    <button class="btn btn-light button1" onclick="dis('/')" value="/">/</button>
+                    <button class="btn btn-light button1" onclick="dis('*')" value="*">*</button>
+                    <button class="btn btn-light button1" onclick="dis(' ')" value="del">C</button><br>
+                    <button class="btn btn-light button1" onclick="dis('7')" value="+">7</button>
+                    <button class="btn btn-light button1" onclick="dis('8')" value="+">8</button>
+                    <button class="btn btn-light button1" onclick="dis('9')" value="+">9</button>
+                    <button class="btn btn-light button1" onclick="dis('+')" value="+">+</button><br>
+                    <button class="btn btn-light button1" onclick="dis('4')" value="+">4</button>
+                    <button class="btn btn-light button1" onclick="dis('5')" value="+">5</button>
+                    <button class="btn btn-light button1" onclick="dis('6')" value="+">6</button>
+                    <button class="btn btn-light button1" onclick="dis('-')" value="-">-</button><br>
+                    <button class="btn btn-light button1" onclick="dis('1')" value="+">1</button>
+                    <button class="btn btn-light button1" onclick="dis('2')" value="+">2</button>
+                    <button class="btn btn-light button1" onclick="dis('3')" value="+">3</button>
+                    <button class="btn btn-light button1 disabled" onclick="dis(' ')" value="">()</button><br>
+                    <button class="btn btn-light button1" onclick="dis('0')" value="+">0</button>
+                    <button class="btn btn-light button1" onclick="dis('.')" >.</button>
+                    <button class="btn btn-primary button2" onclick="result(screenTxt1.value)" >=</button>
+                </div>
+            </div>
+    
+    </div>
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/js_calculator.js"></script>
+</body>
+</html>

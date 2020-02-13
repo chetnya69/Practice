@@ -1,0 +1,12 @@
+body{
+    padding: 50px;
+    margin: 20px;
+}
+
+input{
+    height: 50px;
+}
+
+select{
+    margin-top: 8px;
+}

@@ -1,0 +1,47 @@
+body{
+    border: black;
+    /* background: url("img1.jpg") center center fixed; fixed or scroll */
+    -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: inherit;
+  padding: 100px;
+}
+
+.image1{
+    background: url("img9.jpg") center center scroll;
+    height: 400px;
+    background-size: cover;
+    display: block;
+    padding: 100px;
+}
+.image2{
+    background: url("img7.jpg") center scroll;
+    background-size: cover;
+    display: block;
+    padding: 150px;
+    height: 400px;
+}
+
+img{
+    text-align: center;
+    padding: 20px;
+    width: 340px;
+    height: 310px;
+} 
+button:focus{
+    background-color: blue;
+}
+input:focus{
+    background-color:grey !important;
+}
+textarea:focus{
+    background-color:grey !important;
+}
+.intro{
+    background-color: cadetblue;
+    height: 400px;
+}
+.navbarnav{
+    height: 100px;
+}

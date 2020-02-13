@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Practice_home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="row">
+    <div class="form-group col-sm-6" style="padding-top: 50px;">
+      <label for="Name"><strong>Name:</strong></label>
+      <input type="text" class="form-control" id="Name" placeholder="Enter Name" name="Name">
+    </div>
+    <div class="form-group col-sm-6" style="padding-top: 50px;">
+      <label for="DOB"><strong>DOB:</strong></label>
+      <input type="text" class="form-control" id="DOB" placeholder="DD/MM/YYYY" name="DOB">
+    </div>
+  </div>
+
+  <form>
+    <div class="form-group">
+      <label for="email"><strong>Email:</strong></label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd"><strong>Password:</strong></label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+  </form><br>
+
+  <div class="container">
+    <form>
+      <h4>Gender</h4>
+      <div class="row">
+    <div class="radio col-sm-3">
+      <label><input type="radio" name="optradio">Male</label>
+    </div>
+    <div class="radio col-sm-3">
+      <label><input type="radio" name="optradio">Female</label>
+    </div>
+  </div>
+  </form>
+</div><br>  
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Select Graduate Degree:
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">B.Tech(B.E.)</a>
+      <a class="dropdown-item" href="#">B.Com</a>
+      </div>
+  </div><br><br>
+
+    <h4>Hobbies:</h4>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Singing</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Travelling</label>
+    </div>
+    <div class="checkbox disabled">
+      <label><input type="checkbox" value="">Sports</label>
+    </div>
+  </form><br>
+
+  <button type="button" class="btn btn-primary">Submit</button>
+  </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
