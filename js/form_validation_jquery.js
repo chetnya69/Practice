@@ -21,13 +21,13 @@
 // }
 
 function check(){
-    var name=document.getElementsByName("name").value;
+    var name=document.getElementsByName("myName").value;
     console.log(name);
-    var email=document.getElementsByName("email").value;
+    var email=document.getElementsByName("myEmail").value;
     console.log(email);
-    var pass=document.getElementsByName("Pass").value;
+    var pass=document.getElementsByName("myPass").value;
     console.log(pass);
-    var bio=document.getElementsByName("bio").value;
+    var bio=document.getElementsByName("myBio").value;
     console.log(bio);
 
 }
