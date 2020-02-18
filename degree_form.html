@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enable or Disable Checkbox on DropDown Selection - JavaScript</title>
+</head>
+<body>
+    <div>
+        Degrees:  
+        <select id="sel" onchange="degree(this)">
+            <option>Select</option>
+            <option value="phd">PHD</option>
+            <option value="bcom">B.com</option>
+            <option value="arts">Arts</option>
+            <option value="btech">B.tech</option>
+        </select>
+        <p>
+            <input type="checkbox" class="xyz phd" name="deg" disabled="disabled" id="chk1" /> Physics <br />
+            <input type="checkbox" class="xyz phd" name="deg" disabled="disabled" id="chk2" /> Chemistry <br />
+            <input type="checkbox" class="xyz phd" name="deg" disabled="disabled" id="chk3" /> Computer <br>
+            <input type="checkbox" class="xyz bcom" name="deg" disabled="disabled" id="chk4" /> Accounts <br />
+            <input type="checkbox" class="xyz bcom" name="deg" disabled="disabled" id="chk5" /> Business <br>
+            <input type="checkbox" class="xyz bcom" name="deg" disabled="disabled" id="chk6" /> Law <br />
+            <input type="checkbox" class="xyz arts" name="deg" disabled="disabled" id="chk7" /> History<br />
+            <input type="checkbox" class="xyz arts" name="deg" disabled="disabled" id="chk8" /> Music <br>
+            <input type="checkbox" class="xyz btech" name="deg" disabled="disabled" id="chk9" /> CSE <br />
+            <input type="checkbox" class="xyz btech" name="deg" disabled="disabled" id="chk10" /> ME <br />
+            <input type="checkbox" class="xyz btech" name="deg" disabled="disabled" id="chk11" /> CE <br />
+            <input type="checkbox" class="xyz btech" name="deg" disabled="disabled" id="chk12" /> ECE <br />
+        </p>
+    </div>
+    <script src="js/degree_form.js"></script>
+
+</body>
