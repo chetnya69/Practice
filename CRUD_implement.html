@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/CRUD.css">
+</head>
+
+<body>
+    <div class="container">
+    
+        <button type="button" data-target="#mymodal" data-toggle="modal">Add Row</button>
+        <br><br>
+        <table class="list" id="employeeList">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>City</th>
+                    <!-- <th></th> -->
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="modal fade" tabindex="-1" role="dialog" id="mymodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h2 class="modal-title">Add a Row</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <form data-toggle="validator" role="form" onclick="event.preventDefault();onFormSubmit();">
+                            <div class="form-group">
+                                <label>First name</label><label class="validation-error hide" id="FirstNameValidationError">This field is required.</label>
+                                <input type="text" name="FirstName" id="FirstName">
+                            </div>
+                            <div class="form-group">
+                                <label>Last Name</label>
+                                <input type="text" name="LastName" id="LastName">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" name="Email" id="Email">
+                            </div>
+                            <div class="form-group">
+                                <label>Number</label>
+                                <input type="number" name="Number" id="Number">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>        
+    <script src="https://code.jquery.com/jquery-1.12.4.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
+    </script>
+    <script src="js/CRUD.js"></script>
+</body>
+
+</html>
