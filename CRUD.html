@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CRUD Practice </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CRUD.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form data-toggle="validator" onclick="event.preventDefault();onFormSubmit();">
+                    <div class="form-group">
+                        <label id="FirstNameValidationError" class="control-label" for="FirstName">First Name</label>
+                        <input class="form-control" data-error="Please enter First Name." type="text" name="FirstName" id="FirstName" placeholder="First Name" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="LastName">Last Name</label>
+                        <input class="form-control" data-error="Please enter Last Name." type="text" name="LastName" id="LastName" placeholder="Last Name" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Email">Email</label>
+                        <input class="form-control" data-error="Please enter Email." type="email" name="Email" id="Email" placeholder="Email" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="Phone Number">Phone Number</label>
+                        <input class="form-control" data-error="Please enter Phone Number." type="number" name="PhoneNumber" id="PhoneNumber" placeholder="Phone Number" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>First Name Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="https://code.jquery.com/jquery-1.12.4.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
+    </script>
+    <script src="CRUD.js"></script>
+</body>
+
+</html>
