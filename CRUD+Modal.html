@@ -20,7 +20,7 @@
                     <th>Last Name</th>
                     <th>Email</th>
                     <th>Phone Number</th>
-                    <th></th>
+                    <th>Edit / Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -62,7 +62,7 @@
                         <div class="help-block with-errors"></div>
                     </div>
                     <div  class="form-action-buttons">
-                        <input type="submit" value="Submit">
+                        <input type="submit" value="Submit" onsubmit="event.preventDefault();onFormSubmit();">
                     </div>
                 </form>
               </div>
