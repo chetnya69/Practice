@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Section wise changes</title>
+  <link rel="stylesheet" href="section_changes.css">
+</head>
+
+<body>
+  <div class="container" style="width: 30%; height: 500px; border: 2px solid chocolate;">
+    <select id="navcolor">
+      <option>Choose a color</option>
+      <option value="red" class="red">Red</option>
+      <option value="green" class="green">Green</option>
+      <option value="blue" class="blue">Blue</option>
+    </select>
+    
+    <div >
+      <nav class="navbar1">
+      <a class="nav-link active">Active</a>
+      <a class="nav-link">Link</a>
+      <a class="nav-link">Link</a>
+      <a class="nav-link">Link</a>
+    </nav>
+  </div>
+  </div>
+
+  <div class="container" style="width: 30%; height: 500px; border: 2px solid chocolate;">
+    <select id="sidenavcolor">
+      <option>Choose a color</option>
+      <option value="red" class="red">Red</option>
+      <option value="green" class="green">Green</option>
+      <option value="blue" class="blue">Blue</option>
+    </select>
+
+    <select id="maincolor">
+      <option>Choose a color</option>
+      <option value="red" class="red">Red</option>
+      <option value="green" class="green">Green</option>
+      <option value="blue" class="blue">Blue</option>
+    </select>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="sidenav">
+          <label href="#about">About</label><br>
+          <label href="#services">Services</label><br>
+          <label href="#clients">Clients</label><br>
+          <label href="#contact">Contact</label><br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="main">
+        <div>
+          <h3>This is some text with changed background</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container" style="width: 30%; height: 500px; border: 2px solid chocolate;">
+    <select id="tablestyle">
+      <option>Choose a style on table</option>
+      <option value="bordered" class="bordered">Bordered</option>
+      <option value="dotted" class="dotted">Dotted</option>
+    </select>
+    <div class="table">
+    <table style="width:100%">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+  </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
+</script>
+<script src="section_changes.js"></script>
+
+</html>

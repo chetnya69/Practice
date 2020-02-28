@@ -1,0 +1,53 @@
+html, body{
+    border: chocolate;
+    height: 100%;
+}
+
+.container{
+    display: inline-block;
+    padding: 10px;
+    text-align: center; 
+}
+
+label{
+    color: white;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+nav > a{
+    color: white;
+}
+
+.sidenav {
+    width: 100px;
+    height: 400px;
+    position: fixed;
+    background-color: black;
+    overflow-x: hidden;
+    margin-top: 10px;
+
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-size: 15px;
+    color: white;
+    display: block;
+  }
+
+  .main > h3{
+      text-align: center;
+      color: grey;
+      float: right;
+  }
+
+th, td{
+    color: black;
+    margin-top: 10px;
+}
+
