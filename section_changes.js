@@ -25,13 +25,13 @@ $('#sidenavcolor').change(function(){
 
 $('#navcolor').change(function(){
     if($(this).val() == 'red'){ 
-        $(".navbar1").css('background-color', 'red');
+        $(".navbar").css('background-color', 'red');
     }
         if($(this).val() == 'green'){
-        $(".navbar1").css('background-color', 'green');
+        $(".navbar").css('background-color', 'green');
     }
         if($(this).val() == 'blue'){
-        $(".navbar1").css('background-color', 'blue');
+        $(".navbar").css('background-color', 'blue');
     }
 });
 
