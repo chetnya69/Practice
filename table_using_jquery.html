@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery table</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/table_using_jquery.css">
+</head>
+
+<body>
+    <style>
+        html, body{
+            margin-top: 20px;
+        }
+    </style>
+    <div class="container">
+        
+        <table id="mytable" class="table table-bordered">
+            <tr>
+                <form>
+                    <tbody id="tablebody">
+                        <td><label for="input">name: </label>
+                            <input type="text">
+                        </td>
+                
+                        <td>
+                            <label for="radio">gender: </label>
+                            <input type="radio">
+                            <input type="radio">
+                        </td>
+
+                        <td>
+                            <label for="checkbox">degrees: </label>
+                            <input type="checkbox">
+                            <input type="checkbox">
+                        </td>
+
+                        <td>
+                            <label for="select">select: </label>
+                            <select id="dropdown">
+                                <option value="HTML">HTML</option>
+                                <option value="CSS">CSS</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button type="button" id="add">add row</button><br>
+                        </td>
+                    </tbody>
+                </form>
+            </tr>
+        </table>
+
+    </div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
+</script>
+<script src="js/table_using_jquery.js"></script>
+
+</html>
