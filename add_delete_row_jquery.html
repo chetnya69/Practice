@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery table</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        html, body {
+            margin-top: 20px;
+        }
+
+        table{
+            text-align: center;
+        }
+    </style>
+
+    <div class="container">
+        <table class="table table-bordered table-striped" id="mytable" style="width:100%">
+            <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </thead>
+            <tbody id="tablebody">
+                <tr>
+                <td>Chetnya</td>
+                <td>Gupta</td>
+                <td>21</td>
+                <td><button type="button" id="add">add row</button></td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js">
+</script>
+<script src="js/add_delete_row_jquery.js"></script>
+
+</html>
