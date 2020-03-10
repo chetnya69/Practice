@@ -5,7 +5,7 @@ $(document).ready(function () {
             '<td>Chetnya</td>' +
             '<td>Gupta</td>' +
             '<td>21</td>' + 
-            '<td><button id="btnDelete" onclick="deleteRow(this);">Delete Row</button></td>' +
+            '<td><button id="delete" onclick="deleteRow(this);">Delete Row</button></td>' +
         '</tr>');
     });
 
